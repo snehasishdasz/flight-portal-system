@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigo</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https:/unpkg.com/swiper/swiper-bundle.min.css"/>
+
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+      #welcome{
+        color:white;
+        margin: 0 0.5em;
+        font-size: 1.5em;
+      }
+     
+    </style>
+</head>
+
+<body>
+    <!-- header section -->
+
+
+    <header>
+        <div id="menu-bar" class="fas fa-bars "></div>
+
+        <a href="#" class="logo"><span>A</span>migo</a>
+
+        <nav class="navbar">
+            <a href="./index.html">Home</a>
+            <a href="#book">Flights</a>
+            <a href="./bookflight.html">Bookings</a>
+            <a href="#packages">packages</a>
+            <a href="#services">Service</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+            <a href="team.html">Team</a>
+        </nav>
+
+        <div class="cicons">
+            <i class="fas fa-user" id="login-btn"></i>
+            <span id="welcome"></span>
+            <button id="login-out" class="btn"></button>
+        </div>
+    </header>
+
+
+    <!-- Home section -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Adventure is worthwhile</h3>
+            <p>Discover new places with us, adventure awaits</p>
+            <a href="" class="btn">Discover more</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="image/vid1.mp4"></span>
+            <span class="vid-btn" data-src="image/vid2.mp4"></span>
+            <span class="vid-btn" data-src="image/vid3.mp4"></span>
+            <span class="vid-btn" data-src="image/vid4.mp4"></span>
+            <span class="vid-btn" data-src="image/vid5.mp4"></span>
+
+        </div>
+
+        <div class="video-container">
+            <video src="image/vid1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+
+    </section>
+
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>B</span>
+            <span>O</span>
+            <span>O</span>
+            <span>K</span>
+            <span>I</span>
+            <span>N</span>
+            <span>G</span>
+        </h1>
+
+        <table class="content-table">
+            <thead>
+              <tr>
+                <th>From</th>
+                <th>To</th>
+                <th>Price</th>
+                <th>Seats available</th>
+                <th>Boarding</th>
+                <th>Departure</th>
+                <th> </th>
+              </tr>
+            </thead>
+            <tbody id="flist">
+              
+            </tbody>
+          </table>
+    </section>
+
+
+    <!-- packages -->
+    <section class="packages" id="packages">
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="image/mumbai.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Mumbai</h3>
+                    <p> Immerse yourself in the vibrant spirit of Mumbai with our all-inclusive package. Experience the bustling cityscape, visit iconic landmarks like the Gateway of India, explore bustling bazaars, savor local street food, and witness the captivating blend of tradition and modernity that defines India's financial and entertainment capital.</p>
+                    <br><div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>               
+                    <div class="price">Rs.2500<span>Rs.4000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/sydney.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Sydney</h3>
+                    <p>Immerse yourself in the enchanting beauty of Sydney with our all-inclusive package. From iconic landmarks like the Sydney Opera House and Harbour Bridge to the stunning Bondi Beach, explore the vibrant cityscape, indulge in world-class dining, and discover the laid-back Australian charm that defines this cosmopolitan metropolis.</p>
+                    <br><div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>               
+                    <div class="price">Rs.10,000<span>Rs.12,000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>                
+            </div>
+
+            <div class="box">
+                <img src="image/hawaii.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Hawaii</h3>
+                    <p> Escape to the tropical paradise of Hawaii with our all-inclusive package. Immerse yourself in the breathtaking beauty of its pristine beaches, explore lush rainforests, experience traditional Polynesian culture, and unwind in luxury resorts, creating memories that will last a lifetime.</p>
+                   <br><br><br> <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>               
+                    <div class="price">Rs.9999<span>Rs.8499</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>                
+            </div>
+
+            <div class="box">
+                <img src="image/paris.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Paris</h3>
+                    <p>Experience the allure of Paris with our all-inclusive package. Immerse yourself in the city of love as you explore iconic landmarks like the Eiffel Tower and Louvre Museum, stroll along the romantic streets of Montmartre, indulge in exquisite cuisine, and discover the artistic and cultural treasures that make Paris truly enchanting.</p>
+                   <br><br><br> <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>               
+                    <div class="price">Rs.19,999<span>Rs.22,999</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>                
+            </div>
+
+            <div class="box">
+                <img src="image/tokyo.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Tokyo</h3>
+                    <p>Immerse yourself in the dynamic energy of Tokyo with our all-inclusive package. Discover the modern marvels of this bustling metropolis, from the neon-lit streets of Shibuya to the serene gardens of the Imperial Palace, and indulge in delectable cuisine, traditional tea ceremonies, and the unique blend of ancient traditions and futuristic innovations.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <!-- <i class="fas fa-star"></i> -->
+                    </div>               
+                    <div class="price">Rs.4999<span>Rs.6499</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>                
+            </div>
+
+            <div class="box">
+                <img src="image/egypt.avif" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Egypt</h3>
+                    <p>Unveil the wonders of an ancient civilization with our curated Egypt package. From exploring the awe-inspiring pyramids of Giza and cruising along the Nile River to discovering the treasures of Luxor and immersing in the mystique of Cairo, embark on an unforgettable adventure through time and immerse yourself in the rich history and captivating allure of Egypt.</p>
+                   <br<br> <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>               
+                    <div class="price">Rs.15,999<span>Rs.18,999</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>                
+            </div>
+
+        </div>
+    </section>
+
+     <!-- services -->
+     <section class="services" id="services">
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>affordable hotels</h3>
+                <p>Enjoy a comfortable and budget-friendly stay at our affordable hotel. Experience our warm hospitality, modern amenities, and convenient location, all at an unbeatable price.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>Experience the art of culinary craftsmanship with our carefully crafted menus, featuring exquisite dishes made from the finest ingredients. Enjoy a memorable dining experience that elevates your journey through the airport.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>safety guide</h3>
+                <p>, we prioritize your safety above all else. From robust security measures to vigilant staff, we ensure a secure environment throughout your journey, providing peace of mind and a worry-free travel experience.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>around the world</h3>
+                <p>Embark on a global adventure right from our airport portal system. With flights connecting to diverse destinations across the world, we open the doors to endless possibilities, allowing you to discover new cultures, breathtaking landscapes, and extraordinary experiences.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>fastest travel</h3>
+                <p> Streamline your travel experience with our fastest travel options. With priority check-ins, expedited security screenings, and swift boarding procedures, we ensure you can breeze through the airport and be on your way to your destination without delay.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>adventures</h3>
+                <p>From breathtaking hiking trails to adrenaline-pumping water sports, we connect you to thrilling destinations that offer a wide range of exciting outdoor activities for the adventurous traveler.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Gallery -->
+    <section class="gallery" id="gallery">
+        <h1 class="heading">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="image/img1.jpg" alt="">
+                <div class="content">
+                    <h3>Airport</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, fuga?</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/img11.jpg" alt="">
+                <div class="content">
+                    <h3>Airport</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, fuga?</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/img3.jpg" alt="">
+                <div class="content">
+                    <h3>Airport</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, fuga?</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/img4.jpg" alt="">
+                <div class="content">
+                    <h3>Airport</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, fuga?</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/img5.jpg" alt="">
+                <div class="content">
+                    <h3>Airport</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, fuga?</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/img6.jpg" alt="">
+                <div class="content">
+                    <h3>Airport</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, fuga?</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <!-- review -->
+
+    <section class="review" id="review">
+        <h1 class="heading">
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>            
+        </h1>
+        <div class="swiper-container review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="image/person1.png" alt="">
+                        <h3>john deo</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis odit quis mollitia nulla obcaecati quisquam maiores magnam corrupti iusto quibusdam ipsum minima et, itaque architecto, tempore explicabo temporibus blanditiis earum.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="image/person2.png" alt="">
+                        <h3>john deo</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis odit quis mollitia nulla obcaecati quisquam maiores magnam corrupti iusto quibusdam ipsum minima et, itaque architecto, tempore explicabo temporibus blanditiis earum.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="image/person1.png" alt="">
+                        <h3>john deo</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis odit quis mollitia nulla obcaecati quisquam maiores magnam corrupti iusto quibusdam ipsum minima et, itaque architecto, tempore explicabo temporibus blanditiis earum.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="image/person2.png" alt="">
+                        <h3>john deo</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis odit quis mollitia nulla obcaecati quisquam maiores magnam corrupti iusto quibusdam ipsum minima et, itaque architecto, tempore explicabo temporibus blanditiis earum.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="image/person1.png" alt="">
+                        <h3>john deo</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis odit quis mollitia nulla obcaecati quisquam maiores magnam corrupti iusto quibusdam ipsum minima et, itaque architecto, tempore explicabo temporibus blanditiis earum.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span> 
+            <span>t</span>           
+        </h1>
+        <div class="row">
+            <div class="image">
+                <img src="image/aero2.svg" alt="">
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="number">
+                    <input type="text" placeholder="subject">
+                </div>
+                <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea> 
+                <input type="submit" class="btn" value="send message">
+            </form>            
+        </div>
+    </section>
+
+     <!-- Brand Section -->
+
+     <section class="brand-container">
+
+        <div class="swiper-container brand-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="image/ar1.png" alt=""></div>
+                <div class="swiper-slide"><img src="image/ar2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="image/ar3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="image/ar4.png" alt=""></div>
+                <div class="swiper-slide"><img src="image/ar5.png" alt=""></div>
+                <div class="swiper-slide"><img src="image/ar6.png" alt=""></div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+         <div class="box-container">
+            <div class="box">
+                <h3>about us</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sint aperiam soluta labore ut delectus nostrum neque consequatur nulla dignissimos?</p>
+            </div>
+            <div class="box">
+                <h3>branch locations</h3>
+                 <a href="#">india</a>
+                 <a href="#">usa</a>
+                 <a href="#">japan</a>
+                 <a href="#">france</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                 <a href="#">home</a>
+                 <a href="#">book</a>
+                 <a href="#">packages</a>
+                 <a href="#">services</a>
+                 <a href="#">gallery</a>
+                 <a href="#">review</a>
+                 <a href="#">contact</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                 <a href="#">facebook</a>
+                 <a href="#">instagram</a>
+                 <a href="#">twitter</a>
+                 <a href="#">linkedin</a>
+            </div>
+         </div>
+
+         <h1 class="credit">created with 💖by <span style="color: #e45858;">Team S5</span> all rights reserved!</h1>
+    </section>
+    
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

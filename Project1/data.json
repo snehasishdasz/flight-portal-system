@@ -1,0 +1,252 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "shakti",
+      "email": "shakti@gmail.com",
+      "pass": "123456",
+      "age": 21,
+      "gender": "male",
+      "nationality": "indian",
+      "passport": 433566
+    },
+    {
+      "id": 1685850065021,
+      "name": "Shakti Prasad Nanda",
+      "email": "idk@gmail.com",
+      "pass": "t5trw",
+      "gender": "Male",
+      "age": "55",
+      "nationality": "ghf",
+      "passport": "463554"
+    },
+    {
+      "id": 1685850116766,
+      "name": "Shakti Prasad Nanda",
+      "email": "shaktip2014@gmail.com",
+      "pass": "12345",
+      "gender": "Male",
+      "age": "22",
+      "nationality": "Indian",
+      "passport": "56577655"
+    },
+    {
+      "id": 1685850234612,
+      "name": "Shakti Prasad Nanda",
+      "email": "cse.20bcsa46@silicon.ac.in",
+      "pass": "12345",
+      "gender": "Female",
+      "age": "33",
+      "nationality": "West",
+      "passport": "567637"
+    },
+    {
+      "id": 1685883444735,
+      "name": "Snehasish",
+      "email": "snehasishdas872@gmail.com",
+      "pass": "123456789",
+      "gender": "Male",
+      "age": "21",
+      "nationality": "India",
+      "passport": "456723456745"
+    },
+    {
+      "id": 1685891167999,
+      "name": "Amlan",
+      "email": "xyz@gmail.com",
+      "pass": "123456",
+      "gender": "Male",
+      "age": "21",
+      "nationality": "India",
+      "passport": "2345676543345"
+    },
+    {
+      "id": 1685905680452,
+      "name": "SANJEET DAS",
+      "email": "saisanjeet321@gmail.com",
+      "pass": "12345",
+      "gender": "Male",
+      "age": "22",
+      "nationality": "Indian",
+      "passport": "1234567890"
+    },
+    {
+      "id": 1685946990951,
+      "name": "Bikash",
+      "email": "sellcranel@gmail.com",
+      "pass": "987654321",
+      "gender": "Male",
+      "age": "21",
+      "nationality": "India",
+      "passport": "2345678754"
+    }
+  ],
+  "data": [
+    {
+      "flight": "Emirates",
+      "source": "Bhubaneswar",
+      "destination": "Chennai",
+      "boarding": "10:30",
+      "departure": "11:15",
+      "seatsAvailable": 27,
+      "price": "1700.00",
+      "id": 1
+    },
+    {
+      "flight": "AirBNB",
+      "source": "Bhubaneswar",
+      "destination": "Delhi",
+      "boarding": "11:45",
+      "departure": "12:50",
+      "seatsAvailable": 0,
+      "price": "1200.00",
+      "id": 2
+    },
+    {
+      "flight": "Indigo",
+      "source": "Mumbai",
+      "destination": "Goa",
+      "boarding": "2.00",
+      "departure": "3:50",
+      "seatsAvailable": 14,
+      "price": "2000.00",
+      "id": 3
+    },
+    {
+      "flight": "Airasia",
+      "source": "Kolkata",
+      "destination": "Gujrat",
+      "boarding": "1.00",
+      "departure": "2:50",
+      "seatsAvailable": 7,
+      "price": "2600.00",
+      "id": 4
+    },
+    {
+      "flight": "Kingfisher",
+      "source": "Odisha",
+      "destination": "Banglore",
+      "boarding": "5.00",
+      "departure": "6",
+      "seatsAvailable": 35,
+      "price": "5000.00",
+      "id": 5
+    }
+  ],
+  "booking": [
+    {
+      "uid": 1,
+      "from": "bbsr",
+      "to": "ctk",
+      "price": 3242
+    },
+    {
+      "id": 1685871871461,
+      "uid": "1685850234612",
+      "flight": "Emirates",
+      "source": "Bhubaneswar",
+      "destination": "Chennai",
+      "boarding": "10:30",
+      "departure": "11:15"
+    },
+    {
+      "id": 1685873129976,
+      "uid": "1685850234612",
+      "flight": "Emirates",
+      "source": "Bhubaneswar",
+      "destination": "Chennai",
+      "boarding": "10:30",
+      "departure": "11:15"
+    },
+    {
+      "id": 1685876920909,
+      "uid": "1685850234612",
+      "flight": "Emirates",
+      "source": "Bhubaneswar",
+      "destination": "Chennai",
+      "boarding": "10:30",
+      "departure": "11:15"
+    },
+    {
+      "id": 1685878115972,
+      "uid": "1685850234612",
+      "flight": "Emirates",
+      "source": "Bhubaneswar",
+      "destination": "Chennai",
+      "boarding": "10:30",
+      "departure": "11:15"
+    },
+    {
+      "id": 1685878576443,
+      "uid": "1685850234612",
+      "flight": "Emirates",
+      "source": "Bhubaneswar",
+      "destination": "Chennai",
+      "boarding": "10:30",
+      "departure": "11:15"
+    },
+    {
+      "id": 1685884264113,
+      "uid": "1",
+      "flight": "Emirates",
+      "source": "Bhubaneswar",
+      "destination": "Chennai",
+      "boarding": "10:30",
+      "departure": "11:15"
+    },
+    {
+      "id": 1685884285665,
+      "uid": "1",
+      "flight": "Emirates",
+      "source": "Bhubaneswar",
+      "destination": "Chennai",
+      "boarding": "10:30",
+      "departure": "11:15"
+    },
+    {
+      "id": 1685891321947,
+      "uid": "1685891167999",
+      "flight": "Emirates",
+      "source": "Bhubaneswar",
+      "destination": "Chennai",
+      "boarding": "10:30",
+      "departure": "11:15"
+    },
+    {
+      "id": 1685902009669,
+      "uid": "1685883444735",
+      "flight": "Airasia",
+      "source": "Kolkata",
+      "destination": "Gujrat",
+      "boarding": "1.00",
+      "departure": "2:50"
+    },
+    {
+      "id": 1685905866138,
+      "uid": "1685905680452",
+      "flight": "Emirates",
+      "source": "Bhubaneswar",
+      "destination": "Chennai",
+      "boarding": "10:30",
+      "departure": "11:15"
+    },
+    {
+      "id": 1685938059425,
+      "uid": "1685905680452",
+      "flight": "Emirates",
+      "source": "Bhubaneswar",
+      "destination": "Chennai",
+      "boarding": "10:30",
+      "departure": "11:15"
+    },
+    {
+      "id": 1685938077080,
+      "uid": "1685905680452",
+      "flight": "Indigo",
+      "source": "Mumbai",
+      "destination": "Goa",
+      "boarding": "2.00",
+      "departure": "3:50"
+    }
+  ]
+}
